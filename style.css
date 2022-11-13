@@ -1,0 +1,309 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.container{
+  background-image: url(images/bg-header-desktop.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+}
+.logo img{
+  height: 100px;
+  width: 100px;
+  margin-top: 80px;
+}
+.text h1{
+  font-size: 39px;
+  margin-bottom: 10px;;
+}
+.text p{
+  font-size: 18px;
+  margin: 5px 480px 50px 480px;
+  line-height: 1.4;
+}
+.button{
+  margin: -20px 0 0 0;
+}
+.button .button1{
+  border-radius: 28px;
+  background-color: hsl(171, 66%, 44%);
+  padding: 15px 20px 15px 20px;
+  font-size: 18px;
+  margin: 0 20px 0 0;
+}
+.button .button2{
+  border-radius: 28px;
+  background-color: hsl(233, 100%, 69%);
+  padding: 15px 20px 15px 20px;
+  font-size: 18px;
+  margin: 0 20px 0 0;
+}
+.text2 h1{
+  font-size: 33px;
+  margin:100px 20px 10px 0;
+}
+.text2 p{
+  font-size: 18px;
+  margin: 5px 450px 50px 450px;
+  line-height: 1.4;
+}
+.image_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.image_text .image img{
+  margin-left: -35px;
+}
+.text3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: left;
+  margin-top: -30px;;
+}
+.text3 .text3-inside1 h2{
+  margin: 0 15px 0 85px;
+  }
+
+.text3 .text3-inside1 p{
+ font-size: 18px;
+ margin: 10px 380px 0 85px;
+ line-height: 1.4;
+}
+.text3 .text3-inside2 h2{
+  margin: 60px 15px 0 85px;
+  }
+
+.text3 .text3-inside2 p{
+ font-size: 18px;
+ margin: 10px 400px 0 85px;
+ line-height: 1.4;
+}
+.text3 .text3-inside3 h2{
+  margin: 60px 15px 0 85px;
+  }
+
+.text3 .text3-inside3 p{
+ font-size: 18px;
+ margin: 10px 380px 0 85px;
+ line-height: 1.4;
+}
+.text4 h1{
+  font-size: 33px;
+  margin:100px 20px 10px 0;
+}
+.text4 p{
+  font-size: 18px;
+  margin: 5px 450px 100px 450px;
+  line-height: 1.4;
+}
+.text5 h1{
+  font-size: 33px;
+  margin:50px 20px 10px 0;
+}
+.text5 p{
+  font-size: 18px;
+  margin: 5px 450px 100px 450px;
+  line-height: 1.4;
+}
+.summary
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blacklist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  position: relative;
+  left: -100px;
+}
+.snippets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  position: relative;
+  left: -300px;
+  top: 5px;
+}
+.preview{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  position: relative;
+  left: -200px;
+  top: 5px;
+}
+.summary .blacklist .image{
+  background-image: url(images/icon-blacklist.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+}
+.summary .blacklist .inside-blacklist p{
+  margin: 0 300px 0 300px;
+}
+.summary .blacklist .inside-blacklist h3{
+  margin: 15px 350px;
+}
+.summary .preview .inside-preview p{
+  margin-right: -50px;
+}
+.logo1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0;
+}
+.logo1 .google{
+  background-image: url(images/logo-google.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 120px;
+  margin-right: 50px;
+}
+.logo1 .ibm{
+  background-image: url(images/logo-ibm.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 120px;
+  margin: 0 60px;
+}
+.logo1 .microsoft{
+  background-image: url(images/logo-microsoft.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 120px;
+  margin: 0 50px;
+}
+.logo1 .hp{
+  background-image: url(images/logo-hp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 120px;
+  margin: 0 60px;
+}
+.logo1 .vector{
+  background-image: url(images/logo-vector-graphics.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 120px;
+  margin-left: 50px;
+}
+.text6 h1{
+  margin-bottom: 10px;;
+}
+.text6 p{
+  font-size: 18px;
+  margin: 5px 480px 50px 420px;
+  line-height: 1.4;
+}
+.button-1{
+  margin: -20px 0 0 0;
+}
+.button-1 .button-1{
+  border-radius: 28px;
+  background-color: hsl(171, 66%, 44%);
+  padding: 15px 20px 15px 20px;
+  font-size: 18px;
+  margin: 0 20px 0 0;
+}
+.button-1 .button-2{
+  border-radius: 28px;
+  background-color: hsl(233, 100%, 69%);
+  padding: 15px 20px 15px 20px;
+  font-size: 18px;
+  margin: 0 20px 0 0;
+}
+.footer{
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.footer .footer_logo{
+  background-image: url(images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 0px;
+  left: -450px;
+}
+.footer .details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 20px 0;
+}
+.footer .details .details1 p{
+  margin-right: 20px;
+}
+.footer .details .details2 p{
+  margin-right: 20px;
+}
+.footer .details .details3 p{
+  margin: 0px;
+  position: relative;
+  top: -15px;
+}
+.social_media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 50px;
+}
+.social_media .facebook{
+  background-image: url(images/icon-facebook.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.social_media .twitter{
+  background-image: url(images/icon-twitter.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25px;
+  width: 25px;
+  margin: 0 10px;
+}
+.social_media .instagram{
+  background-image: url(images/icon-instagram.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
